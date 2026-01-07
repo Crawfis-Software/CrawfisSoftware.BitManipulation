@@ -1,9 +1,24 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-    </PropertyGroup>
-
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RepositoryUrl>https://github.com/Crawfis-Software/CrawfisSoftware.BitManipulation</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Standard library for CrawfisSoftware.BitManipulation.</Description>
+    <Company>Crawfis Software</Company>
+    <PackageProjectUrl>https://github.com/Crawfis-Software</PackageProjectUrl>
+    <Copyright>Copyright (c) Crawfis Software 2026</Copyright>
+    <Authors>Crawfis Software</Authors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <LangVersion>10.0</LangVersion>
+    <RepositoryType>git</RepositoryType>
+    <PackageId>CrawfisSoftware.BitManipulation</PackageId>
+    <Nullable>enable</Nullable>
+    <TargetFrameworks>netstandard2.1;net8.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
